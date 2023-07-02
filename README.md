@@ -45,43 +45,43 @@ where f is the original image and b is the structuring element used. Recall that
 
 
 ### Results
-# 1-converts the original color image to grayscale.
+1-converts the original color image to grayscale.
 
 <img src="Images/ABC_1.PNG" alt="Image" width="620px" height="auto">
 
-# 2-Our image processing technique uses thresholding and contour detection to identify and highlight the car's edges and shapes. By displaying the thresholded image and the image with contours side by side
+2-Our image processing technique uses thresholding and contour detection to identify and highlight the car's edges and shapes. By displaying the thresholded image and the image with contours side by side
 
 <img src="Images/ABC_2.PNG" alt="Image" width="620px" height="auto">
 
-# 3-using Canny edge detection to highlight the car's edges and contours. By applying this technique, we can effectively extract the car's shape from the original image, resulting in a more striking and visually appealing representation.
+3-using Canny edge detection to highlight the car's edges and contours. By applying this technique, we can effectively extract the car's shape from the original image, resulting in a more striking and visually appealing representation.
 
 <img src="Images/ABC_3.PNG" alt="Image" width="620px" height="auto">
 
-# 4-using contour detection to create precise bounding boxes around the car's different parts, highlighting its shape and structure.
+4-using contour detection to create precise bounding boxes around the car's different parts, highlighting its shape and structure.
 
 <img src="Images/ABC_4.PNG" alt="Image" width="620px" height="auto">
 
-# 5-identifying and isolating the car's different parts using criteria based on size and aspect ratio.
+5-identifying and isolating the car's different parts using criteria based on size and aspect ratio.
 
 <img src="Images/ABC_5.PNG" alt="Image" width="620px" height="auto">
 
-# 6-identifying and grouping  contours that are likely to be part of the same character. By comparing the size, shape, and position of each contour.
+6-identifying and grouping  contours that are likely to be part of the same character. By comparing the size, shape, and position of each contour.
 
 <img src="Images/ABC_6.PNG" alt="Image" width="620px" height="auto">
 
-# 7-Our image processing technique groups together similar contours and draws rectangles around them to better highlight the car's features. The resulting image shows the rectangles around the matched contours overlaid on the original image, resulting in a more detailed and visually interesting representation of the car.
+7-Our image processing technique groups together similar contours and draws rectangles around them to better highlight the car's features. The resulting image shows the rectangles around the matched contours overlaid on the original image, resulting in a more detailed and visually interesting representation of the car.
 
 <img src="Images/ABC_1.PNG" alt="Image" width="620px" height="auto">
 
-# 8-we segment the individual characters from the license plate image using a function called segment_characters.
+8-we segment the individual characters from the license plate image using a function called segment_characters.
 
 <img src="Images/A.PNG" alt="Image" width="620px" height="auto">
 
-# 9-creating a subplot for each character in the char object and display the grayscale image of each character using the 'imshow' function.
+9-creating a subplot for each character in the char object and display the grayscale image of each character using the 'imshow' function.
 
 <img src="Images/ABC_8.PNG" alt="Image" width="620px" height="auto">
 
-# 10-.We apply erosion to each character image in the char object to enhance the visibility of the characters. Specifically, we apply erosion to each character image using a kernel of size 3x3 and one iteration.
+10-.We apply erosion to each character image in the char object to enhance the visibility of the characters. Specifically, we apply erosion to each character image using a kernel of size 3x3 and one iteration.
 
 <img src="Images/ABC_9.PNG" alt="Image" width="620px" height="auto">
 
