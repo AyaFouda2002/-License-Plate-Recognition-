@@ -45,8 +45,8 @@ where f is the original image and b is the structuring element used. Recall that
 
 
 ### Results
-1-converts the original color image to grayscale
-<img src="ABC_1.JPG" alt="Image" width="620px" height="auto">
+1-converts the original color image to grayscale.
+<img src="Images/ABC_1.PNG" alt="Image" width="620px" height="auto">
 2-Our image processing technique uses thresholding and contour detection to identify and highlight the car's edges and shapes. By displaying the thresholded image and the image with contours side by side
 <img src="ABC_2.JPG" alt="Image" width="620px" height="auto">
 3-using Canny edge detection to highlight the car's edges and contours. By applying this technique, we can effectively extract the car's shape from the original image, resulting in a more striking and visually appealing representation.
