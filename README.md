@@ -1,4 +1,4 @@
-# -License-Plate-Recognition-Using-Digital-Image-Processing
+# License-Plate-Recognition-Using-Digital-Image-Processing
 
 ## Abstract
 License Plate Recognition (LPR) is a digital image processing project that involves the automatic detection and recognition of license plates in images or video streams. The goal of this project is to develop a system that can accurately extract license plate information from images or video frames, which can then be used for various applications such as traffic management, parking enforcement, toll collection, and vehicle tracking.
