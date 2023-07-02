@@ -71,7 +71,7 @@ where f is the original image and b is the structuring element used. Recall that
 
 7-Our image processing technique groups together similar contours and draws rectangles around them to better highlight the car's features. The resulting image shows the rectangles around the matched contours overlaid on the original image, resulting in a more detailed and visually interesting representation of the car.
 
-<img src="Images/ABC_1.PNG" alt="Image" width="620px" height="auto">
+<img src="Images/ABC_7.PNG" alt="Image" width="620px" height="auto">
 
 8-we segment the individual characters from the license plate image using a function called segment_characters.
 
